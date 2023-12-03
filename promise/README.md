@@ -18,7 +18,8 @@ new Promise((resolve,reject) => {
 [promise2](./promise2.js) —— 使用promise实现ajax  
 [promise3](./promise3.js) —— then、catch  
 [promise4](./promise4.js) —— finally()  
-[promise5](./promise5.js) —— Promise.all()
+[promise5](./promise5.js) —— Promise.all()  
+[promise6](./promise6.js) —— Promise.race()
 
 
 ## 相关知识点总结
