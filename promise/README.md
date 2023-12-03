@@ -15,5 +15,6 @@ new Promise((resolve,reject) => {
 ```
 
 [promise1](./promise1.js) —— promise的基础实现  
-[promise2](./promise2.js) —— 使用promise实现ajax
-[promise3](./promise3.js) —— then、catch
+[promise2](./promise2.js) —— 使用promise实现ajax  
+[promise3](./promise3.js) —— then、catch  
+[promise4](./promise4.js) —— finally()  
