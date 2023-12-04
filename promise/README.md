@@ -19,7 +19,8 @@ new Promise((resolve,reject) => {
 [promise3](./promise3.js) —— then、catch  
 [promise4](./promise4.js) —— finally()  
 [promise5](./promise5.js) —— Promise.all()  
-[promise6](./promise6.js) —— Promise.race()
+[promise6](./promise6.js) —— Promise.race()  
+[promise7](./promise7.js) —— Promise.allSettled()
 
 
 ## 相关知识点总结
@@ -30,3 +31,6 @@ new Promise((resolve,reject) => {
     - 有至少一个实例为rejected，Promise.all()的状态为rejected，返回结果为第一个rejected实例的返回结果
     - 如果实例定义了自己的catch方法，rejected时会在实例内部执行，之后返回给Promise.all()的，也是resolved
 - Promise.race()参数为一组具有Iterator接口的promise实例，只要有一个实例改变状态，Promise.race()的状态就会跟着改变，并返回该实例的返回值
+- Promise.allSettled()参数为一组具有Iterator接口的promise实例,该方法会等到所有promise实例状态改变后，才返回结果，回调函数的收到的参数有两种情况
+    - 异步操作成功：{status:'fulfilled',value:value}
+    - 异步操作失败：{status:'rejected',reason:reason}
