@@ -13,7 +13,7 @@ new Promise((resolve,reject) => {
 //2
 //1
 ```
-
+## 代码链接
 [promise1](./promise1.js) —— promise的基础实现  
 [promise2](./promise2.js) —— 使用promise实现ajax  
 [promise3](./promise3.js) —— then、catch  
