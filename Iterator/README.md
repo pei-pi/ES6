@@ -41,11 +41,6 @@ map.forEach((val,key) => {
 那有没有一种统一的方法，让我能遍历每种数据结构，但是又不用考虑每种数据结构的特性呢?
 ## Iterator（遍历器）的概念
 Iterator提供统一的接口机制，用来处理不同的数据结构，即我们不用关心遍历对象内部的存储结构，任何数据结构只要部署Iterator接口，就可以完成遍历操作。可以理解为Iterator接口主要为for...of服务的。
-## 代码链接
-[Iterator1](../Iterator/Iterator1.js) —— Iterator的实现  
-[Iterator2](../Iterator/Iterator2.js) —— Iterator与for...of  
-[Iterator3](../Iterator/Iterator3.js) —— 原生具有Iterator接口的数据结构  
-[Iterator4](../Iterator/Iterator4.js) —— return()方法，for...of中断
 
 ## 相关知识点总结
 - ES6规定，只要在对象属性上部署了Iterator接口，具体形式为给对象添加Symbol.iterator属性，这个对象就是可迭代的，可以被for...of遍历。
@@ -53,3 +48,9 @@ Iterator提供统一的接口机制，用来处理不同的数据结构，即我
 - 如果我们自己写遍历器对象生成函数，那next()方法时必须部署的，return()和throw()则可选，用来控制遍历器的中断。
 - 对可迭代对象进行结构赋值时，会默认调用Symbol.iterator方法
 - 扩展运算符(...)也会默认调用Symbol.iterator方法
+  
+## 代码链接
+[Iterator1](../Iterator/Iterator1.js) —— Iterator的实现  
+[Iterator2](../Iterator/Iterator2.js) —— Iterator与for...of  
+[Iterator3](../Iterator/Iterator3.js) —— 原生具有Iterator接口的数据结构  
+[Iterator4](../Iterator/Iterator4.js) —— return()方法，for...of中断

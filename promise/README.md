@@ -13,15 +13,6 @@ new Promise((resolve,reject) => {
 //2
 //1
 ```
-## 代码链接
-[promise1](./promise1.js) —— promise的基础实现  
-[promise2](./promise2.js) —— 使用promise实现ajax  
-[promise3](./promise3.js) —— then、catch  
-[promise4](./promise4.js) —— finally()  
-[promise5](./promise5.js) —— Promise.all()  
-[promise6](./promise6.js) —— Promise.race()  
-[promise7](./promise7.js) —— Promise.allSettled()
-
 
 ## 相关知识点总结
 - .then方法有两个参数，第二个参数实际上与catch等价
@@ -35,3 +26,12 @@ new Promise((resolve,reject) => {
     - 异步操作成功：{status:'fulfilled',value:value}
     - 异步操作失败：{status:'rejected',reason:reason}
 - Promise.any()方法接受一组Promise实例作为参数，当有**一个实例状态变为fulfilled**时，包装实例就会变成fulfilled状态，如果**所有实例都变成rejected**状态，包装实例就会变成rejected状态。
+
+## 代码链接
+[promise1](./promise1.js) —— promise的基础实现  
+[promise2](./promise2.js) —— 使用promise实现ajax  
+[promise3](./promise3.js) —— then、catch  
+[promise4](./promise4.js) —— finally()  
+[promise5](./promise5.js) —— Promise.all()  
+[promise6](./promise6.js) —— Promise.race()  
+[promise7](./promise7.js) —— Promise.allSettled()
