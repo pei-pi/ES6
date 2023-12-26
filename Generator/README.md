@@ -23,5 +23,4 @@ Generator函数是ES6提供的一种异步编程解决方案，它类似一个�
 [generator2.js](../Generator/generator2.js) —— next方法的参数  
 [generator3.js](../Generator/generator3.js) —— Generator和for...of循环  
 [generator4.js](../Generator/generator4.js) —— Generator.prototype.throw()  
-[generator5.js](../Generator/generator5.js) —— Generator函数嵌套(yield*表达式)  
-[generator6.js](../Generator/generator6.js) —— 多步函数的几种写法
+[generator5.js](../Generator/generator5.js) —— Generator函数嵌套(yield*表达式) 
